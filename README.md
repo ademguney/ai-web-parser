@@ -82,3 +82,33 @@ CHROMEDRIVER_PATH=drivers/chromedriver.exe
 
 ```
 
+---
+
+## 🧩 Dependencies
+
+This project relies on the following Python libraries:
+
+### 🔍 Web Scraping
+- `selenium` – browser automation
+- `beautifulsoup4`, `lxml`, `html5lib` – HTML parsing engines
+- `undetected-chromedriver` – evades bot detection
+- `python-dotenv` – environment variable management
+
+### 🧠 LLM & Parsing
+- `openai` – access to models
+- `langchain`, `langchain-core`, `langchain-community` – LLM orchestration framework
+- `langchain-openai`, `langchain-ollama` – LangChain integrations
+- `ollama` – local LLM runtime
+
+### 🖥️ Web UI (optional)
+- `streamlit` – interactive UI for local testing or visualization
+
+### 🧹 HTML Post-Processing
+- `html2text` – converts HTML to plain text
+- `tqdm` – progress bars during long-running tasks
+- `requests` – simple HTTP requests
+
+### ⚙️ Config & Utilities
+- `pydantic` – type-safe settings and data validation
+
+
