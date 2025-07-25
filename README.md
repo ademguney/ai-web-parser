@@ -82,6 +82,14 @@ CHROMEDRIVER_PATH=drivers/chromedriver.exe
 
 ```
 
+## 🚀 Running the App
+
+To launch the Streamlit interface, run the following command from the **project root**:
+``` bash
+$env:PYTHONPATH = "."; streamlit run interfaces/cli/main.py
+```
+
+
 ---
 
 ## 🧩 Dependencies
