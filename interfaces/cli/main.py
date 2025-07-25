@@ -70,4 +70,4 @@ if "cleaned_content" in st.session_state:
 
             st.success("✅ İşlem tamamlandı.")
             st.subheader("📄 Çıkarılan Bilgi:")
-            st.text_area("Parsed Output", result, height=300)
+            st.markdown(result, unsafe_allow_html=True)
