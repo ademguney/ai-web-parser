@@ -24,4 +24,4 @@ html2text
 requests             
 
 # Config & Utilities
-pydantic             # yapılandırma modelleri
+pydantic             
