@@ -1,0 +1,27 @@
+# Web Scraping
+selenium
+beautifulsoup4
+lxml
+html5lib
+python-dotenv
+undetected-chromedriver
+
+# Web UI
+streamlit
+
+# LLM ve Parsing
+openai
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-ollama
+ollama
+
+# HTML Processing
+tqdm                 
+html2text           
+requests             
+
+# Config & Utilities
+pydantic             # yapılandırma modelleri
